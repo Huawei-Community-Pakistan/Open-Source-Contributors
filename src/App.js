@@ -1,9 +1,18 @@
 import './App.css';
+import User from './components/User';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hacktoberfest</h1>
+      <User
+        name='Sharjeel Yunus'
+        batch='2019'
+        major='Computer Science'
+        favLang='JavaScript / TypeScript'
+        github='sharjeelyunus'
+        city='Bahawalpur'
+        oraginzation='CareerNetwork'
+      />
     </div>
   );
 }
