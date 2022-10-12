@@ -1,18 +1,16 @@
 import './App.css';
-import User from './components/User';
+import FetchUser from './components/FetchUsers';
 
 function App() {
   return (
     <div className="App">
-      <User
-        name='Sharjeel Yunus'
-        batch='2019'
-        major='Computer Science'
-        favLang='JavaScript / TypeScript'
-        github='sharjeelyunus'
-        city='Bahawalpur'
-        oraginzation='CareerNetwork'
-      />
+      <div className="users">
+        <FetchUser />
+      </div>
+      <footer className="footer">
+        Made with ❤ by&nbsp;
+        <a href="https://github.com/sharjeelyunus" target="_blank" rel="noreferrer">Sharjeel Yunus</a>
+      </footer>
     </div>
   );
 }
